@@ -1,0 +1,40 @@
+html {
+    background-image: url("/IMAGES/star-background-1.gif");
+    font-family: 'Lucida Console';
+    text-align: center;
+}
+
+.landing-page {
+    margin: auto;
+    color: white;
+    background: transparent;
+}
+
+.index-content {
+    background-color: blueviolet;
+    border: 5px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 750px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.index-text {
+    text-align: justify;
+}
+
+.container-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+}
+
+img {
+    border: 5px solid black;
+    border-radius: 10px;
+}
