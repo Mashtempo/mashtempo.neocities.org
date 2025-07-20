@@ -18,7 +18,7 @@ html {
     align-items: center;
     padding: 20px;
     border-radius: 10px;
-    width: 750px;
+    width: 800px;
     height: auto;
     margin: 0 auto;
 }
@@ -31,10 +31,40 @@ html {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    gap: 30px;
+    gap: 20px;
 }
 
 img {
     border: 5px solid black;
     border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+a:visited {
+    color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;;
 }
