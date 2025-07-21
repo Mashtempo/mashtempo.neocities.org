@@ -1,6 +1,5 @@
 html {
     background-image: url("/IMAGES/star-background-1.gif");
-    font-family: 'Lucida Console';
     text-align: center;
 }
 
@@ -48,11 +47,15 @@ ul {
     margin: 0;
 }
 
-a {
+.navigation-bar {
     color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: larger;
+}
+
+a {
+    color: white;
 }
 
 a:visited {

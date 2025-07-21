@@ -1,0 +1,31 @@
+html {
+    background-image: url("/IMAGES/star-background-2.gif");
+    text-align: center;
+}
+
+.about-me {
+    color: white;
+    background: transparent;
+}
+
+.about-me-content {
+    background-color: blueviolet;
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.text-content {
+    text-align: justify;
+    color: white;
+}
+
+.back {
+    color:yellow;
+    text-align: left;
+}
