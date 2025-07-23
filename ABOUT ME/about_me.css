@@ -8,6 +8,10 @@ html {
     background: transparent;
 }
 
+h3 {
+    text-align: left;
+}
+
 .about-me-content {
     background-color: blueviolet;
     border: 5px solid blue;
