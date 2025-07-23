@@ -4,7 +4,6 @@ html {
 }
 
 .landing-page {
-    margin: auto;
     color: white;
     background: transparent;
 }
@@ -13,6 +12,7 @@ html {
     background-color: blueviolet;
     border: 5px solid blue;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -33,9 +33,18 @@ html {
     gap: 20px;
 }
 
-img {
+.avatar-wrapper {
+    display:flex;
+    justify-content: flex-end;
+    padding-left: 80px;
+}
+
+.avatar {
     border: 5px solid black;
     border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    transform: translateX(-20px);
 }
 
 ul {
@@ -64,10 +73,20 @@ a:visited {
 
 footer {
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
     color: white;
     text-align: center;
-    padding: 10px;;
+    padding: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: purple;
 }
