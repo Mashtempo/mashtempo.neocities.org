@@ -1,0 +1,50 @@
+html {
+    background-image: url("/IMAGES/star-background-3.gif");
+    text-align: center;
+}
+
+.contact-page {
+    color: white;
+    background: transparent;
+}
+
+.contact-content {
+    background-color: blueviolet;
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+.back {
+    color: yellow;
+    text-align: left;
+}
+
+.back:hover {
+    color: yellow;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-text {
+    text-align: justify;
+}
