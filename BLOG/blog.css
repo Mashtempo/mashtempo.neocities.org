@@ -36,12 +36,20 @@ footer {
 }
 
 .book-review {
-    color: brown
+    color: brown;
+}
+
+.experiment {
+    color: rgb(70, 1, 70);
 }
 
 a {
     color: yellow;
     text-decoration: none;
+}
+
+li {
+    text-align: justify;
 }
 
 a:hover {
